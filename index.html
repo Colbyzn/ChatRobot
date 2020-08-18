@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatRoom</title>
+    <link rel="stylesheet" type="text/css" href="css/chatRobot.css" />
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        <header class="header">
+            <h1 id="title" class="text-center">欢迎来到Colbyzn聊天室</h1>
+            <p id="description" class="description text-center">Welcome to Colbyzn's chat room</p>
+        </header>
+
+        <div id="chat-interface">
+
+            <div class="chat-group chat-textarea">
+                <p id="chat-content">Hi，我是Colbyzn，欢迎来到聊天室，快点和我一起聊天吧 ！</p>
+            </div>
+
+            <div class="chat-group">
+                <input type="text" onfocus="this.value=''" placeholder="单击输入您想说的话" id="inputWord" class="input-box" />
+            </div>
+
+            <div class="chat-group">
+                <button id="submit" class="submit-button">发送</button>
+                <!-- <button id="submit" class="submit-button" onclick="interface()" >发送</button> -->
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
